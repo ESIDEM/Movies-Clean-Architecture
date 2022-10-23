@@ -1,11 +1,11 @@
-package com.xtremepixel.moviescleanarchitecture.data.repository
+package com.xtremepixel.moviescleanarchitecture.data.datasources
 
 import com.xtremepixel.moviescleanarchitecture.data.db.ArtistsDAO
 import com.xtremepixel.moviescleanarchitecture.data.db.MoviesDAO
 import com.xtremepixel.moviescleanarchitecture.data.db.TvShowsDAO
-import com.xtremepixel.moviescleanarchitecture.models.MovieItem
-import com.xtremepixel.moviescleanarchitecture.models.PeopleItem
-import com.xtremepixel.moviescleanarchitecture.models.TvShowItem
+import com.xtremepixel.moviescleanarchitecture.domain.models.MovieItem
+import com.xtremepixel.moviescleanarchitecture.domain.models.PeopleItem
+import com.xtremepixel.moviescleanarchitecture.domain.models.TvShowItem
 
 class LocalDataSourceImpl(
     private val moviesDAO: MoviesDAO,

@@ -1,8 +1,8 @@
 package com.xtremepixel.moviescleanarchitecture.domain.repository
 
-import com.xtremepixel.moviescleanarchitecture.models.MovieItem
-import com.xtremepixel.moviescleanarchitecture.models.PeopleItem
-import com.xtremepixel.moviescleanarchitecture.models.TvShowItem
+import com.xtremepixel.moviescleanarchitecture.domain.models.MovieItem
+import com.xtremepixel.moviescleanarchitecture.domain.models.PeopleItem
+import com.xtremepixel.moviescleanarchitecture.domain.models.TvShowItem
 
 interface MoviesRepository {
 

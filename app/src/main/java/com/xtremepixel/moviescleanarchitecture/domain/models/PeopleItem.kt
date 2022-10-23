@@ -1,4 +1,4 @@
-package com.xtremepixel.moviescleanarchitecture.models
+package com.xtremepixel.moviescleanarchitecture.domain.models
 
 
 import androidx.room.Entity

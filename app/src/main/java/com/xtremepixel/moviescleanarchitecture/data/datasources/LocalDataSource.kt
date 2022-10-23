@@ -1,8 +1,8 @@
-package com.xtremepixel.moviescleanarchitecture.data.repository
+package com.xtremepixel.moviescleanarchitecture.data.datasources
 
-import com.xtremepixel.moviescleanarchitecture.models.MovieItem
-import com.xtremepixel.moviescleanarchitecture.models.PeopleItem
-import com.xtremepixel.moviescleanarchitecture.models.TvShowItem
+import com.xtremepixel.moviescleanarchitecture.domain.models.MovieItem
+import com.xtremepixel.moviescleanarchitecture.domain.models.PeopleItem
+import com.xtremepixel.moviescleanarchitecture.domain.models.TvShowItem
 
 interface LocalDataSource {
 

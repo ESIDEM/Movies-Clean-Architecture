@@ -4,7 +4,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.xtremepixel.moviescleanarchitecture.models.TvShowItem
+import com.xtremepixel.moviescleanarchitecture.domain.models.TvShowItem
 
 @Dao
 interface TvShowsDAO {

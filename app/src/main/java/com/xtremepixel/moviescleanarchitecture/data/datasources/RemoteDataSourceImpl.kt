@@ -1,7 +1,9 @@
-package com.xtremepixel.moviescleanarchitecture.data.repository
+package com.xtremepixel.moviescleanarchitecture.data.datasources
 
 import com.xtremepixel.moviescleanarchitecture.data.api.MoviesService
-import com.xtremepixel.moviescleanarchitecture.models.*
+import com.xtremepixel.moviescleanarchitecture.domain.models.MovieListResponse
+import com.xtremepixel.moviescleanarchitecture.domain.models.PeopleListResponse
+import com.xtremepixel.moviescleanarchitecture.domain.models.TvShowListResponse
 import retrofit2.Response
 
 class RemoteDataSourceImpl(

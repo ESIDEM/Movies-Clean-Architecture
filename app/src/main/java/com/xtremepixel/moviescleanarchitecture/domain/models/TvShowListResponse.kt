@@ -1,13 +1,13 @@
-package com.xtremepixel.moviescleanarchitecture.models
+package com.xtremepixel.moviescleanarchitecture.domain.models
 
 
 import com.google.gson.annotations.SerializedName
 
-data class PeopleListResponse(
+data class TvShowListResponse(
     @SerializedName("page")
     val page: Int,
     @SerializedName("results")
-    val peopleList: List<PeopleItem>,
+    val tvShowList: List<TvShowItem>,
     @SerializedName("total_pages")
     val totalPages: Int,
     @SerializedName("total_results")

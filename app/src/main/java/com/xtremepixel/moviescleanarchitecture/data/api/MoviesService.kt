@@ -1,8 +1,8 @@
 package com.xtremepixel.moviescleanarchitecture.data.api
 
-import com.xtremepixel.moviescleanarchitecture.models.MovieListResponse
-import com.xtremepixel.moviescleanarchitecture.models.PeopleListResponse
-import com.xtremepixel.moviescleanarchitecture.models.TvShowListResponse
+import com.xtremepixel.moviescleanarchitecture.domain.models.MovieListResponse
+import com.xtremepixel.moviescleanarchitecture.domain.models.PeopleListResponse
+import com.xtremepixel.moviescleanarchitecture.domain.models.TvShowListResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

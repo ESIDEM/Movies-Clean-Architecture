@@ -18,9 +18,9 @@ android {
         buildConfigField "String", "API_KEY", "\"205d1d516432851bf13809d2adf550bd\""
     }
 
-    dataBinding{
-        enable = true
-    }
+   buildFeatures{
+       dataBinding = true
+   }
 
     buildTypes {
         release {
@@ -52,10 +52,8 @@ dependencies {
     // Annotation processor
     kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 
+    implementation "androidx.room:room-ktx:$room_version"
     implementation "androidx.room:room-runtime:$room_version"
-    kapt "androidx.room:room-compiler:$room_version"
-
-    // To use Kotlin annotation processing tool (kapt)
     kapt "androidx.room:room-compiler:$room_version"
 
     // Kotlin Coroutine
